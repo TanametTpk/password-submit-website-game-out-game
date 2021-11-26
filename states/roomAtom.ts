@@ -17,8 +17,8 @@ const mockRoomPasswordMapping = (roomNames: string[]): RoomPasswordMapping[] => 
     })
 }
 
-let roomNames = buildRooms("TXBEULFVJOHCSAR")
-roomNames.push("Bonus")
+let roomNames = buildRooms("XBEULFVJOHCSAR")
+roomNames.push("Room Bonus")
 
 const roomAtom = atom<RoomPasswordMapping[]>(
   mockRoomPasswordMapping(
